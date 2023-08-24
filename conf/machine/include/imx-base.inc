@@ -4,6 +4,7 @@ include conf/machine/include/fsl-default-settings.inc
 include conf/machine/include/fsl-default-versions.inc
 
 require conf/machine/include/utilities.inc
+require conf/machine/include/imx-mfgtoolconfig.inc
 
 # Machines or distros can define which BSP it should use by default. We are
 # intending to default for mainline BSP by default and specific machines or
